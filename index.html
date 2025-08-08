@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKPINK - 朴彩英应援站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1" width="118" height="38" rx="2" fill="black" stroke="white" stroke-width="2"/>
+                        <text x="20" y="25" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">BLACK</text>
+                        <text x="75" y="25" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ff2e63">PINK</text>
+                    </svg>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="搜索...">
+                    <button class="search-btn">搜索</button>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">首页</a></li>
+                    <li><a href="#team-intro">成员介绍</a></li>
+                    <li><a href="#discography">代表作品</a></li>
+                    <li><a href="#gallery">精美图集</a></li>
+                    <li><a href="#message-board">留言板</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+                <img src="rose/blackpink-pink-3840x2160-22431.jpg" alt="BLACKPINK" class="hero-banner">
+        </section>
+
+        <section class="team-intro" id="team-intro">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="intro-image">
+                        <img src="rose/rose-blackpink-3840x2160-22459.jpg" alt="BLACKPINK">
+                    </div>
+                    <div class="intro-text">
+                        <h2>团队介绍</h2>
+                        <div class="intro-detail">
+                            <p><strong>名称：</strong>Blackpink</p>
+                            <p><strong>成员：</strong>金智秀，金珍妮，朴彩英，Lisa</p>
+                            <p>Blackpink是一支韩国女子音乐团体，由Jisoo、Jennie、Rosé和Lisa组成。该团体于2016年由YG娱乐推出，以其独特的音乐风格、时尚和舞台表现而备受关注。</p>
+                            <p>Blackpink在全球范围内拥有大量粉丝，其歌曲和音乐视频在各大音乐平台上取得了巨大成功。该团体以歌曲《DDU-DU DDU-DU》、《Kill This Love》等著名单曲而闻名，展现了强烈的舞台表现力和音乐实力。</p>
+                            <p>Blackpink不仅在音乐领域取得了成功，还在时尚界和社交媒体上展现出强大的影响力，成为当今流行文化的代表之一。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discography" id="discography">
+            <div class="container">
+                <h2>代表作品</h2>
+                <div class="album-grid">
+                    <div class="album-item">
+                        <img src="rose/rose-blackpink-3840x2160-21408.jpg" alt="Kill This Love">
+                        <h3>Kill This Love</h3>
+                        <p>"Kill This Love"是韩国女子音乐团体Blackpink（블랙핑크）的一首歌曲，于2019年4月5日发行。这首歌曲以强烈的节奏、动感的音乐和引人入胜的旋律而闻名。</p>
+                    </div>
+                    <div class="album-item">
+                        <img src="rose/rose-blackpink-3840x2160-21596.jpg" alt="DDU-DU DDU-DU">
+                        <h3>DDU-DU DDU-DU</h3>
+                        <p>"DDU-DU DDU-DU"在发行后迅速赢得了广泛关注和喜爱，其音乐视频获得了数亿次观看。这首歌曲展示了Blackpink成员们强大的歌唱实力和舞台表现力。</p>
+                    </div>
+                    <div class="album-item">
+                        <img src="rose/rose-blackpink-3840x2160-22482.jpg" alt="How You Like That">
+                        <h3>How You Like That</h3>
+                        <p>"How You Like That"是韩国女子音乐团体Blackpink（블랙핑크）的一首歌曲，于2020年6月26日发行。这首歌曲以一流的制作、震撼的编曲和充满自信的歌词而获得了广泛好评。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2>精美图集</h2>
+                <p class="section-desc">收集朴彩英的精彩瞬间</p>
+                <div class="gallery-grid">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+
+        <section class="message-board" id="message-board">
+            <div class="container">
+                <h2>留言板</h2>
+                <p class="section-desc">留下你想对BLACKPINK说的话</p>
+                <div class="message-form-container">
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <label for="name">昵称</label>
+                            <input type="text" id="name" name="name" required placeholder="请输入你的昵称">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言内容</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="请输入你的留言"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">提交留言</button>
+                    </form>
+                </div>
+                <div class="messages-container">
+                    <h3>留言列表</h3>
+                    <div id="messagesList"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© BLACKPINK</p>
+            <p>小红书号: 152125913</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
